@@ -1,0 +1,16 @@
+Package: jlstudio
+Title: RStudio addins for a terminal-based R-Julia workflow
+Version: 0.0.0.9000
+Authors@R: 
+    person("June", "Choe", , "jchoe001@gmail.com", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-0701-921X"))
+Description: A collection of RStudio addins to enable an 'R'-'Julia' workflow
+    run on a 'Julia' instance in the RStudio IDE terminal pane. Includes 
+    utilities for sending 'R' code from the script pane to a 'Julia' instance
+    in the RStudio terminal pane via 'RCall'.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    rstudioapi

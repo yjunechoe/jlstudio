@@ -1,0 +1,4 @@
+Name: Send R
+Description: Sends selection to Julia terminal as R code
+Binding: send_selection_to_r
+Interactive: false
